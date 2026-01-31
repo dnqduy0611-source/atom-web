@@ -122,13 +122,19 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="flex flex-col sm:flex-row gap-4"
         >
-          <Button
-            size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-base rounded-full gap-2 shadow-[0_0_30px_rgba(16,185,129,0.3)] hover:shadow-[0_0_40px_rgba(16,185,129,0.5)] transition-all"
+          <a
+            href="https://chromewebstore.google.com/detail/atom-mindful-browsing/hopeblmpkfjedagoplldhddgljmikjkk"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Chrome className="w-5 h-5" />
-            {t("Add to Chrome", "Thêm vào Chrome")}
-          </Button>
+            <Button
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-base rounded-full gap-2 shadow-[0_0_30px_rgba(16,185,129,0.3)] hover:shadow-[0_0_40px_rgba(16,185,129,0.5)] transition-all"
+            >
+              <Chrome className="w-5 h-5" />
+              {t("Add to Chrome", "Thêm vào Chrome")}
+            </Button>
+          </a>
           <Button
             size="lg"
             variant="outline"
