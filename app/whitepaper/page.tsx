@@ -25,7 +25,7 @@ function WhitepaperContent() {
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-12">
                     <div>
                         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 bg-gradient-to-r from-primary to-blue-500 bg-clip-text text-transparent">
-                            ATOM Whitepaper
+                            AmoNexus Whitepaper
                         </h1>
                         <p className="text-xl text-muted-foreground">
                             {isEn ? "The Architecture of Mindful Technology" : "Kiến trúc Công nghệ Tỉnh thức"}
@@ -83,8 +83,8 @@ function WhitepaperContent() {
                         <h3 className="text-xl font-semibold mt-6 mb-2">{isEn ? "Why Now (Code-grounded)" : "Tại sao bây giờ?"}</h3>
                         <p className="text-muted-foreground">
                             {isEn
-                                ? "Manifest V3 makes reliability/state management non-trivial; ATOM explicitly designs around MV3 constraints (service worker wake/sleep, storage restore) and includes cooldown + fail-safe silence behavior."
-                                : "Manifest V3 khiến việc quản lý trạng thái trở nên phức tạp; ATOM thiết kế xoay quanh các ràng buộc của MV3 (service worker wake/sleep, storage restore) và bao gồm cơ chế cooldown + fail-safe silence."
+                                ? "Manifest V3 makes reliability/state management non-trivial; AmoNexus explicitly designs around MV3 constraints (service worker wake/sleep, storage restore) and includes cooldown + fail-safe silence behavior."
+                                : "Manifest V3 khiến việc quản lý trạng thái trở nên phức tạp; AmoNexus thiết kế xoay quanh các ràng buộc của MV3 (service worker wake/sleep, storage restore) và bao gồm cơ chế cooldown + fail-safe silence."
                             }
                         </p>
                     </section>
@@ -94,8 +94,8 @@ function WhitepaperContent() {
                         <h2 className="text-2xl font-bold mb-4">3. Solution Overview</h2>
                         <p className="text-muted-foreground mb-4">
                             {isEn
-                                ? "ATOM implements a least-intrusive-first ladder:"
-                                : "ATOM triển khai thang “leo thang tối thiểu”:"
+                                ? "AmoNexus implements a least-intrusive-first ladder:"
+                                : "AmoNexus triển khai thang “leo thang tối thiểu”:"
                             }
                         </p>
                         <ol className="list-decimal pl-6 space-y-2 text-muted-foreground">

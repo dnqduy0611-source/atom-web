@@ -30,8 +30,8 @@ function ShowcaseContent() {
                     </h1>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                         {isEn
-                            ? "See how ATOM gently guides your attention without being intrusive. Live interactive demos."
-                            : "Xem cách ATOM nhẹ nhàng điều hướng sự chú ý của bạn mà không gây khó chịu. Demo tương tác trực tiếp."}
+                            ? "See how AmoNexus gently guides your attention without being intrusive. Live interactive demos."
+                            : "Xem cách AmoNexus nhẹ nhàng điều hướng sự chú ý của bạn mà không gây khó chịu. Demo tương tác trực tiếp."}
                     </p>
                 </div>
 

@@ -8,26 +8,26 @@ import { useTheme } from "@/lib/theme-context"
 const features = [
     {
         icon: Scan,
-        titleEn: "Signal Analysis System",
-        titleVi: "Hệ thống Phân tích Tín hiệu",
-        descEn: "Automatically measures scroll inertia and real interaction time to understand your engagement.",
-        descVi: "Tự động đo lường quán tính cuộn trang và thời gian tương tác thực tế để hiểu mức độ cuốn hút.",
+        titleEn: "Context Awareness",
+        titleVi: "Nhận thức Ngữ cảnh",
+        descEn: "AmoNexus understands what you're doing: reading, scrolling, or working. It adapts its behavior based on your activity patterns.",
+        descVi: "AmoNexus hiểu bạn đang làm gì: đọc, cuộn trang, hay làm việc. Nó điều chỉnh hành vi dựa trên mẫu hoạt động của bạn.",
         gradient: "from-violet-500/20 to-purple-500/10",
     },
     {
         icon: TrendingUp,
-        titleEn: "Resistance Score",
-        titleVi: "Chỉ số Kháng cự",
-        descEn: "If you continuously ignore prompts, ATOM increases intervention intensity to help you 'wake up' more effectively.",
-        descVi: "Nếu bạn liên tục lờ đi các nhắc nhở, ATOM sẽ tự động tăng mức độ can thiệp để giúp bạn 'tỉnh thức' hiệu quả hơn.",
+        titleEn: "Learning Memory",
+        titleVi: "Bộ nhớ Học tập",
+        descEn: "Your saved insights are categorized by AI. Over time, AmoNexus learns your interests and can surface relevant memories when needed.",
+        descVi: "Insight bạn lưu được AI phân loại. Theo thời gian, AmoNexus học được sở thích và có thể đưa ra ký ức liên quan khi cần.",
         gradient: "from-red-500/20 to-orange-500/10",
     },
     {
         icon: Sparkles,
-        titleEn: "Mood Personalization",
-        titleVi: "Cá nhân hóa theo Tâm trạng",
-        descEn: "Integrated AI (Gemini) analyzes browsing journals to provide personalized advice based on your emotions (happy, sad, or stressed).",
-        descVi: "Tích hợp AI (Gemini) để phân tích nhật ký lướt web, đưa ra lời khuyên cá nhân hóa dựa trên cảm xúc của bạn (vui, buồn, hay căng thẳng).",
+        titleEn: "Mood-Aware Guidance",
+        titleVi: "Hướng dẫn theo Tâm trạng",
+        descEn: "Integrated AI analyzes your journal and browsing patterns to offer personalized advice that matches your current emotional state.",
+        descVi: "AI tích hợp phân tích nhật ký và mẫu duyệt web để đưa ra lời khuyên cá nhân hóa phù hợp với trạng thái cảm xúc hiện tại.",
         gradient: "from-emerald-500/20 to-teal-500/10",
     },
 ]
@@ -47,12 +47,12 @@ export function IntelligenceSection() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-violet-500 bg-clip-text text-transparent">
-                        {t("Behavioral Intelligence", "Công nghệ Thấu hiểu Hành vi")}
+                        {t("The AmoNexus Brain", "Bộ não AmoNexus")}
                     </h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
                         {t(
-                            "ATOM understands your resistance, not just your time.",
-                            "ATOM không chỉ hoạt động dựa trên thời gian, mà còn hiểu được 'sự kháng cự' của bạn."
+                            "An AI that learns, adapts, and grows with you.",
+                            "Một AI học hỏi, thích nghi, và phát triển cùng bạn."
                         )}
                     </p>
                 </motion.div>

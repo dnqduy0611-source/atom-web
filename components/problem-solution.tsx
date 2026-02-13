@@ -45,8 +45,8 @@ export function ProblemSolution() {
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             {t(
-              "Traditional blockers treat you like a criminal. ATOM trusts you.",
-              "Các công cụ chặn truyền thống đối xử với bạn như tội phạm. ATOM tin tưởng bạn.",
+              "Traditional blockers treat you like a criminal. AmoNexus trusts you.",
+              "Các công cụ chặn truyền thống đối xử với bạn như tội phạm. AmoNexus tin tưởng bạn.",
             )}
           </p>
         </motion.div>
@@ -115,7 +115,7 @@ export function ProblemSolution() {
                   <Compass className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground">ATOM</h3>
+                  <h3 className="text-xl font-semibold text-foreground">AmoNexus</h3>
                   <p className="text-sm text-primary">{t("Compass Approach", "Cách tiếp cận La bàn")}</p>
                 </div>
               </div>

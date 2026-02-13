@@ -8,9 +8,9 @@ const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ATOM - Intelligent Attention Compass",
+  title: "AmoNexus - Hệ điều hành Chú ý Thông minh | Intelligent Attention OS",
   description:
-    "Not a blocker, but a mindful companion. ATOM helps you navigate your digital attention with empathy, not restriction.",
+    "Không chặn, chỉ điều hướng. AmoNexus giúp bạn làm chủ chú ý số với AI Commanding, Memory thông minh, và can thiệp nhẹ nhàng.",
   generator: "v0.app",
   icons: {
     icon: [

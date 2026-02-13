@@ -21,11 +21,11 @@ export function Footer() {
           className="flex flex-col md:flex-row items-center justify-between gap-6"
         >
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">A</span>
+          <div className="flex items-center gap-2 mb-4 md:mb-0">
+            <div className="w-6 h-6 rounded-md bg-primary flex items-center justify-center">
+              <span className="text-primary-foreground font-bold text-xs">A</span>
             </div>
-            <span className="text-foreground font-semibold">ATOM</span>
+            <span className="text-foreground font-semibold">AmoNexus</span>
           </div>
 
           {/* Links */}

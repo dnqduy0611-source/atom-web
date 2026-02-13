@@ -23,7 +23,7 @@ function PrivacyPolicyContent() {
 
                 <article className="prose prose-zinc dark:prose-invert max-w-none">
                     <h1 className="text-4xl font-bold tracking-tight mb-4 bg-gradient-to-r from-primary to-emerald-400 bg-clip-text text-transparent">
-                        Privacy Policy for ATOM - Mindful Browsing
+                        Privacy Policy for AmoNexus - Mindful Browsing
                     </h1>
                     <p className="text-muted-foreground mb-8">
                         Last Updated: January 2026
@@ -34,7 +34,7 @@ function PrivacyPolicyContent() {
                         <div>
                             <h2 className="text-2xl font-bold mt-8 mb-4">1. Introduction</h2>
                             <p className="text-muted-foreground">
-                                ATOM - Mindful Browsing ("we", "our", or "the extension") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our Chrome Extension.
+                                AmoNexus - Mindful Browsing ("we", "our", or "the extension") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our Chrome Extension.
                             </p>
                             <div className="p-4 bg-muted rounded-lg mt-4 border-l-4 border-primary">
                                 <strong>Core Principle:</strong> We do not track, sell, or transmit your personal browsing history to any external servers owned by us. Your data primarily lives on your device.
@@ -92,7 +92,7 @@ function PrivacyPolicyContent() {
                             </p>
                             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
                                 <li><strong>Data Transmission:</strong> When you use the "Journal" or "Analyze" features, the text of your journal entry and strictly limited context (current website domain, duration) are sent directly from your browser to Google's servers via their API.</li>
-                                <li><strong>No Intermediary:</strong> This data goes directly to Google; it does not pass through any server owned by the ATOM developer.</li>
+                                <li><strong>No Intermediary:</strong> This data goes directly to Google; it does not pass through any server owned by the AmoNexus developer.</li>
                                 <li><strong>Governance:</strong> The processing of this data is subject to Google's Generative AI Terms of Service and Google Privacy Policy.</li>
                             </ul>
                         </div>
@@ -100,7 +100,7 @@ function PrivacyPolicyContent() {
                         {/* 4. Permissions Justification */}
                         <div>
                             <h2 className="text-2xl font-bold mt-8 mb-4">4. Permissions Justification</h2>
-                            <p className="text-muted-foreground mb-4">To function effectively, ATOM requires specific permissions:</p>
+                            <p className="text-muted-foreground mb-4">To function effectively, AmoNexus requires specific permissions:</p>
                             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
                                 <li><code>tabs & &lt;all_urls&gt;</code>: Required to monitor active time on websites to prevent addiction and verify if a site is in your "Safe Zone" (Whitelist).</li>
                                 <li><code>storage</code>: Required to save your settings, whitelist, and journal logs locally.</li>

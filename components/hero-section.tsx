@@ -17,11 +17,10 @@ export function HeroSection() {
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20">
       {/* Background gradient - adjusted for theme */}
       <div
-        className={`absolute inset-0 ${
-          theme === "dark"
+        className={`absolute inset-0 ${theme === "dark"
             ? "bg-[radial-gradient(ellipse_at_center,_rgba(16,185,129,0.08)_0%,_transparent_70%)]"
             : "bg-[radial-gradient(ellipse_at_center,_rgba(16,185,129,0.12)_0%,_transparent_70%)]"
-        }`}
+          }`}
       />
 
       {/* Grid pattern overlay - adjusted opacity for theme */}
@@ -45,7 +44,7 @@ export function HeroSection() {
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-sm">A</span>
           </div>
-          <span className="text-foreground font-semibold text-lg">ATOM</span>
+          <span className="text-foreground font-semibold text-lg">AmoNexus</span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           <a href="#features" className="hover:text-foreground transition-colors">
@@ -75,7 +74,7 @@ export function HeroSection() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-secondary/50 backdrop-blur-sm">
             <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             <span className="text-sm text-muted-foreground">
-              {t("Intelligent Attention Compass", "La bàn Chú ý Thông minh")}
+              {t("Intelligent Attention OS", "Hệ điều hành Chú ý Thông minh")}
             </span>
           </div>
         </motion.div>
@@ -97,9 +96,9 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-balance"
         >
-          <span className="text-foreground">{t("No addiction detox.", "Không cai nghiện.")}</span>
+          <span className="text-foreground">{t("Command your browser.", "Ra lệnh cho trình duyệt.")}</span>
           <br />
-          <span className="text-primary">{t("Just navigation.", "Chỉ điều hướng.")}</span>
+          <span className="text-primary">{t("Master your attention.", "Làm chủ chú ý.")}</span>
         </motion.h1>
 
         {/* Subheadline */}
@@ -110,8 +109,8 @@ export function HeroSection() {
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 text-pretty"
         >
           {t(
-            "ATOM is not a blocker. It's your mindful companion, helping you navigate attention intelligently and empathetically.",
-            "ATOM không phải là một công cụ chặn. Nó là người bạn đồng hành mindful, giúp bạn điều hướng sự chú ý một cách thông minh và đồng cảm.",
+            "AmoNexus brings AI Commanding, Smart Memory, and Gentle Interventions to help you reclaim your digital attention.",
+            "AmoNexus mang đến AI Commanding, Memory thông minh, và Can thiệp Nhẹ nhàng giúp bạn làm chủ chú ý số.",
           )}
         </motion.p>
 
