@@ -42,6 +42,9 @@ export function Footer() {
             <Link href="/showcase" className="hover:text-foreground transition-colors">
               {t("Gallery", "Thư viện Demo")}
             </Link>
+            <Link href="/whats-new" className="hover:text-primary transition-colors font-medium">
+              {t("What's New", "Có gì mới")}
+            </Link>
             <Link href="#" className="hover:text-foreground transition-colors">
               {t("Support", "Hỗ trợ")}
             </Link>

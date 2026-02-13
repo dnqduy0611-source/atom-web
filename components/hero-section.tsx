@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Chrome, Play } from "lucide-react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { AtomOrb } from "@/components/atom-orb"
 import { LanguageSwitcher } from "@/components/language-switcher"
@@ -18,8 +19,8 @@ export function HeroSection() {
       {/* Background gradient - adjusted for theme */}
       <div
         className={`absolute inset-0 ${theme === "dark"
-            ? "bg-[radial-gradient(ellipse_at_center,_rgba(16,185,129,0.08)_0%,_transparent_70%)]"
-            : "bg-[radial-gradient(ellipse_at_center,_rgba(16,185,129,0.12)_0%,_transparent_70%)]"
+          ? "bg-[radial-gradient(ellipse_at_center,_rgba(16,185,129,0.08)_0%,_transparent_70%)]"
+          : "bg-[radial-gradient(ellipse_at_center,_rgba(16,185,129,0.12)_0%,_transparent_70%)]"
           }`}
       />
 
@@ -50,6 +51,9 @@ export function HeroSection() {
           <a href="#features" className="hover:text-foreground transition-colors">
             {t("Features", "Tính năng")}
           </a>
+          <Link href="/whats-new" className="hover:text-primary transition-colors font-medium">
+            {t("What's New", "Có gì mới")}
+          </Link>
           <a href="#" className="hover:text-foreground transition-colors">
             {t("Docs", "Tài liệu")}
           </a>
